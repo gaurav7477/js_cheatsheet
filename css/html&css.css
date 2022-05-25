@@ -1,0 +1,36 @@
+/* units
+font-size,width,heiight
+
+px ->> it's a absolute value it is not depended on  anything
+% ->> its a relative unit depend on parent value
+rm  ->> its a relative unit depend on parent value
+1 rm = 16px
+
+rem ->> its a relative unit depend on root value not parent
+1 rem = 16px default browser value
+
+vw = depend ->>percent on the screen
+vh = depend ->>percent on the screen
+*/
+
+
+/* 
+html{
+    font-size: 32px;
+}
+div{
+    font-size: 40px;
+}
+.relative{
+    font-size: 2rem;
+}
+.absolute{
+    font-size: 64px;
+} */
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
